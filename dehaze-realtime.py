@@ -1,9 +1,6 @@
 import cv2
 import numpy as np
-import requests 
-import cv2 
-import numpy as np 
-import imutils 
+
 def DarkChannel(im, sz):
 
     b, g, r = cv2.split(im)
